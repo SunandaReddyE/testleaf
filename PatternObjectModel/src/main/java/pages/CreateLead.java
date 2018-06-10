@@ -28,7 +28,7 @@ public class CreateLead extends ProjectMethods{
 	private WebElement clickCreateLeadButton;
 
 	
-	public CreateLead typeCompanyName(String data){
+	public CreateLead typeCompanyName1(String data){
 		type(eleCompanyName, data);
 		return this;	
 	}
